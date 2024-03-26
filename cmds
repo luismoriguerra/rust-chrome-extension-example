@@ -1,0 +1,12 @@
+
+
+wasm-pack build --target web
+
+# copy pgk folder to chrome_extension folder
+cp  pkg/ chrome_extension/
+
+
+chmod +x build_and_copy.sh
+
+
+./build_and_copy.sh
